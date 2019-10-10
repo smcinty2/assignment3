@@ -1,29 +1,39 @@
-body {
-    color: darkslateblue;
-    background-color: antiquewhite;
-    
-    
-    font-family: cursive;
-        
-    
-    
-    
-    
-    
-}
+ @media screen and (max-width:30rem) {}
 
-.blue-span {color: skyblue;
-}
+ h1 {
+     text-transform: uppercase;
 
-.centered {
-    
-    padding: 10px 10px 10px 10px;
-    border: 5px solid;
-    margin: 10px auto 10px auto;
-    width: 80%
-}
-.centered {
-    font-weight: 900;
-    font-style: italic;
-    color: darkblue
-}
+ }
+
+
+
+ body {
+     color: darkslateblue;
+     background-color: antiquewhite;
+
+
+     font-family: cursive;
+
+
+     @media screen and (max-width:30rem) {}
+
+
+ }
+
+ .blue-span {
+     color: skyblue;
+ }
+
+ .centered {
+
+     padding: 10px 10px 10px 10px;
+     border: 5px solid;
+     margin: 10px auto 10px auto;
+     width: 80%
+ }
+
+ .centered {
+     font-weight: 900;
+     font-style: italic;
+     color: darkblue
+ }

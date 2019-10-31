@@ -14,11 +14,14 @@
 
      font-family: cursive;
 
+     @media screen and (max-width:30rem);}
 
-     @media screen and (max-width:30rem) {}
+.flexy{
+          
+     display: flex;
+     flex-direction:column;
+}
 
-
- }
 
  .blue-span {
      color: skyblue;
@@ -32,7 +35,7 @@
      width: 80%
  }
 
- .centered {
+ .centerstyle {
      font-weight: 900;
      font-style: italic;
      color: darkblue

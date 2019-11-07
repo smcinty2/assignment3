@@ -1,42 +1,22 @@
- @media screen and (max-width:30rem) {}
+@media screen and (max-width:30rem) {}
 
- h1 {
-     text-transform: uppercase;
+h1 {
+    text-transform: uppercase;
 
- }
-
-
-
- body {
-     color: darkslateblue;
-     background-color: antiquewhite;
-
-
-     font-family: cursive;
-
-     @media screen and (max-width:30rem);}
-
-.flexy{
-          
-     display: flex;
-     flex-direction:column;
 }
 
 
- .blue-span {
-     color: skyblue;
- }
 
- .centered {
 
-     padding: 10px 10px 10px 10px;
-     border: 5px solid;
-     margin: 10px auto 10px auto;
-     width: 80%
- }
 
- .centerstyle {
-     font-weight: 900;
-     font-style: italic;
-     color: darkblue
- }
+
+.flexy {
+
+    display: flex;
+    flex-direction: column
+}
+
+
+.blue-span {
+    color: skyblue;
+}

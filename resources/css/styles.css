@@ -1,13 +1,5 @@
 @media screen and (max-width:30rem) {}
 
-h1 {
-    text-transform: uppercase;
-}
-
-.blue-span {
-    color: skyblue;
-}
-
 li {
     color: darkgoldenrod
 }
@@ -36,7 +28,6 @@ body {
     color: darkslateblue;
     background-color: antiquewhite;
     font-family: monospace;
-    @media screen and (max-width:30rem)
 }
 
 .centered {
@@ -50,3 +41,47 @@ body {
     font-weight: 900;
     font-style: italic;
     color: darkblue
+}
+
+#box {
+    text-align: center;
+    color: darkblue;
+    background-color: dodgerblue;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid;
+    margin: 5px auto 5px auto;
+}
+
+#boxing {
+    text-align: center;
+    color: #4d4d4d;
+    background-color: lightgray;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid;
+    margin: 5px auto 5px auto;
+}
+
+#boxer {
+    text-align: center;
+    color: #2b7caf;
+    background-color: #a5eaff;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid;
+    margin: 5px auto 5px auto;
+}
+
+.formatboi {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:30rem) {
+    .formatboi {
+        flex-direction: column;
+    }
+}
+
+.item {
+    width: 250px;
+    
+}

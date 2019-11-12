@@ -2,21 +2,51 @@
 
 h1 {
     text-transform: uppercase;
-
 }
-
-
-
-
-
-
-.flexy {
-
-    display: flex;
-    flex-direction: column
-}
-
 
 .blue-span {
     color: skyblue;
 }
+
+li {
+    color: darkgoldenrod
+}
+
+h2 {
+    color: azure
+}
+
+.peri {
+    color: #b9c9ff
+}
+
+.fontbig {
+    font-size: 20px;
+}
+
+#fontheavy {
+    font-weight: 700;
+}
+
+#contentp {
+    color: gray
+}
+
+body {
+    color: darkslateblue;
+    background-color: antiquewhite;
+    font-family: monospace;
+    @media screen and (max-width:30rem)
+}
+
+.centered {
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+    margin: 10px auto 10px auto;
+    width: 80%
+}
+
+.centerstyle {
+    font-weight: 900;
+    font-style: italic;
+    color: darkblue
